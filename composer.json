@@ -1,0 +1,23 @@
+{
+    "name": "codeturn/test",
+    "description": "Test package description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codeturn",
+            "email": "email@example.com",
+            "homepage": "https://github.com/codeturn"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codeturn\\Test\\Providers\\TestServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    }
+}
