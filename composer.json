@@ -10,6 +10,11 @@
             "homepage": "https://github.com/codeturn"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Codeturn\\Test\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
